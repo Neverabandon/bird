@@ -37,7 +37,7 @@
     //用数组的方法来代替for循环
     Imgsrc.forEach(function(str) {
       var img = new Image();
-      img.src = "./../flappyBird/imgs/" + str + ".png";
+      img.src = "./imgs/" + str + ".png";
       Imglist[str] = img;
       img.onload = function() {
         count++;
