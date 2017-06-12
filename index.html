@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="cv"></div>
+
+
+  <script src="./js/Fly.js"></script>
+  <script src="./js/game.js"></script>
+  <script src="./js/sky.js"></script>
+  <script src="./js/land.js"></script>
+  <script src="./js/bird.js"></script>
+  <script src="./js/pipe.js"></script>
+  <script src="./js/time.js"></script>
+  <script>
+    var game = Fly.getGame("cv");
+    game.start();
+  </script>
+
+</body>
+
+</html>
