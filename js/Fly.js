@@ -39,6 +39,7 @@
       var img = new Image();
       img.src = "./imgs/" + str + ".png";
       Imglist[str] = img;
+      console.log(img)
       img.onload = function() {
         count++;
         if (count >= len) {
