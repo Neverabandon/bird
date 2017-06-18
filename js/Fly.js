@@ -6,7 +6,7 @@
   Fly.createCV = function(id) {
     var cv = document.createElement("canvas");
     var dv = document.getElementById(id) || document.body;
-    cv.width = window.innerWidth;
+    cv.width = 800;
     cv.height = 600;
     dv.appendChild(cv);
     return cv;
